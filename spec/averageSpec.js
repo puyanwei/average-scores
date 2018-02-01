@@ -1,5 +1,5 @@
-describe("testing jasmine", function() {
-  it("WORKS", function() {
-    expect(true).toBe(true);
+describe("#average", function() {
+  it("finds the average of the array", function() {
+    expect(49, 3, 5, 300, 7).toBe(73);
   });
 });
